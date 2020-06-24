@@ -9,7 +9,7 @@ html,body{
 }
 
 .uppermost{
-    border:1px solid black;
+    
     display:flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -39,7 +39,7 @@ html,body{
     background-color: rgba(186, 190, 190,0.5); 
 }
 .nav1{
-    border:1px solid black;
+    
     position:relative;
     display:flex;
     justify-content: space-between;
@@ -59,7 +59,7 @@ html,body{
 .nav1 .logo img{
     height:100px;
     width:100px;
-    border:1px solid black;
+    
     margin:5px;
 }
 .nav1 .logo .vertical_line{
@@ -104,7 +104,7 @@ html,body{
     flex-wrap: nowrap;
     
     width:100%;
-    border:1px solid black;
+    
     align-items: center;
     margin:25px 0px 0px 0px;
 }
@@ -114,7 +114,7 @@ html,body{
     width:100%;
 }
 .nav2{
-     border:1px solid black;
+     
    
    
     flex-direction: row;
@@ -226,7 +226,7 @@ ul li a{
     font-size:20px ;
     font-weight: 500;
     color:rgb(73, 11, 11);
-   border: 1px solid black;
+   
     margin:40px 10px 10px 10px ;
 }
 .main_img .col-lg-6 h6{
@@ -236,7 +236,7 @@ ul li a{
     
     padding:2px 2px 2px 10px;}
 .director_msg{
-    border:1px solid black;
+    
     position:relative;
     top:15vh;
    
@@ -261,7 +261,7 @@ ul li a{
    
 }
 .director_msg .quick_link{
- border:1px solid black;
+ 
  height:65vh;
 
  margin:10px auto;
@@ -315,7 +315,7 @@ font-weight: none;
 .carousel-inner img{
     height:60vh;
     width:100%;
-    border:1px solid black;
+    
 }
 .notices{
     position: relative;
@@ -323,7 +323,7 @@ font-weight: none;
     justify-content: space-between;
  flex-wrap: wrap;
  padding:10px;
- border:1px solid black;
+ 
  display: flex;
  background-color: rgba(228, 227, 227,0.7);
 }
@@ -355,7 +355,7 @@ font-weight: none;
   .icons .row1{
     
     margin: 5px;
-    border:1px solid black;
+    
     padding:5px;
     display:flex;
     flex-wrap: wrap;
@@ -439,7 +439,7 @@ font-weight: none;
     position: relative;
     margin:10px auto; 
     padding:5px;
-    border:1px solid black;
+    
     
 
 }
@@ -540,7 +540,7 @@ margin:0px;
 
 .vision_content{
     position:relative;
-    border:1px solid black;
+    
     top:1vh;
     min-height:100vh;
     background-image:linear-gradient( to right,rgba(17, 5, 44, 0.8),rgba(7, 49, 66, 0.7)),
@@ -559,13 +559,12 @@ margin:0px;
     justify-content: space-between;
     margin:20px 10px 0px 10px;
     padding:10px 10px 0px 10px ;
-    border:1px solid black; 
+    
 }
 .vision_content h2{
     font-size: 40px;
     color:#40bbc4;
     margin:20px 20px 0px 60px;
-    border:1px solid black;
     
 
 }
@@ -591,6 +590,46 @@ margin:0px;
 }
 .diploma_p{
     margin: 10px 5px 250px 5px;
+}
+.rule_nav{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap ;
+    justify-content: space-between;
+    margin:10px 5px 25px 5px;
+}
+.rule_nav h5{
+    padding:5px;
+}
+.rule_part1{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.rule_part2{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.scheme_line{
+    height:30px;
+    margin:10px 5px 5px 5px;
+    background-image: linear-gradient(to right,rgb(77, 22, 131),rgb(21, 170, 196));
+    padding:5px 10px 5px 10px;
+    color:white;
+}
+.staff_dev_act_icon{
+    margin: 10px;
+    padding:10px;
+    border:1px dotted blue;
+}
+.staff_mem_div{
+    height:150px;
+    width:150px;
+    border-radius:50% ;
+    border-top: 4px solid orangered ;
+    border-bottom: 4px solid rgb(180, 97, 212);
+    margin:10px 10px 20px 10px;
 }
 
 
